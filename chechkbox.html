@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+
+<meta property="og:url" content="//class.sdij.com/">
+<meta property="og:image" content="//dgh3i7c9du7yu.cloudfront.net/img/logo.png">
+<meta property="og:title" content="시대인재">
+<meta property="og:description" content="시대인재대치, 시대인재분당, 시대인재재수종합N, 시대인재북스, 대입전문컨설팅">
+<meta property="og:site_name" content="시대인재">
+<meta name="description" content="시대인재대치, 시대인재분당, 시대인재재수종합N, 시대인재북스, 대입전문컨설팅">
+<meta name="title" content="시대인재">
+<meta name="keywords" content="9월 모평, 수능 대비, 시대인재, 시대인재 서바이벌, 서바이벌 모의고사">
+
+<title>시대인재</title>
+
+<!-- S : favicon 
+<link rel="shortcut icon" href="//dgh3i7c9du7yu.cloudfront.net/img/favicon.png" type="image/x-icon">
+<link rel="icon" href="//dgh3i7c9du7yu.cloudfront.net/img/favicon_32.png">
+<link rel="icon" href="//dgh3i7c9du7yu.cloudfront.net/img/favicon_32.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="//dgh3i7c9du7yu.cloudfront.net/img/favicon_32.png">
+<link rel="apple-touch-icon-precomposed" href="//dgh3i7c9du7yu.cloudfront.net/img/favicon_32.png">
+// E : favicon -->
+
+<!-- S : css 
+<link rel="stylesheet" type="text/css" href="//dgh3i7c9du7yu.cloudfront.net/css/reset.css">
+<link rel="stylesheet" type="text/css" href="//dgh3i7c9du7yu.cloudfront.net/css/font.css">
+<link rel="stylesheet" type="text/css" href="//dgh3i7c9du7yu.cloudfront.net/css/layout.css">
+<link rel="stylesheet" type="text/css" href="//dgh3i7c9du7yu.cloudfront.net/css/board.css">
+// E : css -->
+
+<!-- S : js 
+<script type="text/javascript" src="//dgh3i7c9du7yu.cloudfront.net/js/lib/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="//dgh3i7c9du7yu.cloudfront.net/js/lib/jquery-ui.js"></script>
+<script type="text/javascript" src="//dgh3i7c9du7yu.cloudfront.net/js/common.js"></script>
+// E : js -->
+
+<!-- S : favicon  -->
+<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+<link rel="icon" href="./img/favicon_32.png">
+<link rel="icon" href="./img/favicon_32.ico" sizes="32x32">
+<link rel="apple-touch-icon" href=".//img/favicon_32.png">
+<link rel="apple-touch-icon-precomposed" href="./img/favicon_32.png">
+<!--// E : favicon -->
+
+<!-- S : css -->
+<link rel="stylesheet" type="text/css" href="./css/reset.css">
+<link rel="stylesheet" type="text/css" href="./css/font.css">
+<link rel="stylesheet" type="text/css" href="./css/layout.css">
+<link rel="stylesheet" type="text/css" href="./css/board.css">
+<!--// E : css -->
+
+<!-- S : js -->
+<script type="text/javascript" src="./js/lib/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<!--// E : js -->
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- S : header -->
+        <header id="header">
+            <div class="gnb-area">
+                <div class="content-layout float-area">
+                    <!-- <button class="btn-gnb"><span class="ico ico-menu">메뉴</span></button> -->
+                    <h1 class="fl"><a href="index.html">시대인재 강좌예약</a></h1>
+
+                    <div class="gnb fr">
+                        <ul class="float-area">
+                            <!-- 인증 전
+                            <li><a href="./reservation.html" class="txt-link">인증하기</a></li>
+                            -->
+                            <!-- 인증 후 -->
+                            <li><a href="javascript:void(0);">홍길동 /  010-1234-5678</a></li>
+                            <li><a href="index.html" class="txt-link">인증해지</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--// E : header -->
+        
+        <!-- S : container -->
+        <section id="container" class="layout-container">
+
+        <h2 class="page-tit mt30">강좌 예약</h2>
+        
+        <!-- S : 컨텐츠 영역 -->
+        <div class="board-layout">
+
+            <!-- S : 예약 조회 설명
+            <ul class="list-dotted mb50">
+                <li>본 예약내역은 결제 완료 내역이 아닙니다. 예약 후 반드시 학원에서 현장 결제를 부탁 드립니다.</li>
+                <li>개강 전 까지 결제가 완료 되지 않을 경우 자동으로 예약은 취소 됩니다.</li>
+                <li>문의처 시대인재 02-552-2373</li>
+            </ul>
+            // E : 예약 조회 설명 -->
+                
+            <form method="POST" id="loginForm" name="loginForm">
+                <input type="hidden" id="authIdx" name="authIdx" value=""/>
+                <input type="hidden" id="authTimeFlag" name="authTimeFlag" value="N"/>
+                <input type="hidden" id="authConfirmFlag" name="authConfirmFlag" value="N"/>
+                <input type="hidden" id="authNm" name="authNm" value=""/>
+
+                <!-- <h4 class="table-tit border-none">예약 강좌</h4> -->
+                <div class="board-list board-list2 mb20">
+                    <table>
+                        <colgroup>
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>과정</th>
+                                <th>과목</th>
+                                <th>강사</th>
+                                <th>요일/시간</th>
+                                <th>개강일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>서바이벌</td>
+                                <td>수학</td>
+                                <td>정석현T</td>
+                                <td>
+                                    <span>(토) 09:00~12:00</span>
+                                </td>
+                                <td>1월 10일</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="form-table">
+                    <table>
+                        <colgroup>
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                            <col style="width:auto;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>학생명*</th>
+                                <td colspan="3">
+                                    <div class="form-input">
+                                        <input type="text" id="stuNm" name="stuNm" class="input-text" readonly="readonly" maxlength="15" placeholder="홍길동">
+                                    </div>
+                                </td>
+                            </tr>   
+                            <tr>
+                                <th>휴대폰 번호*</th>
+                                <td class="pr0">
+                                    <div class="form-input">
+                                        <input type="text" id="authHp1" name="authHp1" value="" readonly="readonly" title="휴대폰번호 첫번째 세자리">
+                                    </div>
+                                </td>
+                                <td class="pr0">
+                                    <div class="form-input">
+                                        <input type="text" id="authHp2" name="authHp2" value="" readonly="readonly" maxlength="4" title="휴대폰번호 가운데 네자리">
+                                    </div>
+                                </td>
+                                <td> 
+                                    <div class="form-input">
+                                        <input type="text" id="authHp3" name="authHp3" value="" readonly="readonly" maxlength="4" title="휴대폰번호 끝 네자리">
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--학교명-->
+                            <tr>
+                                <th>출신고교*</th>
+                                <td colspan="3">
+                                    <div class="form-input">
+                                        <input type="text" id="" name="" class="input-text" readonly="readonly" maxlength="20" placeholder="단국 대학교 어쩌고 저쩌고">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>재원 여부*</th>
+                                <td colspan="3" class="txt-left">
+                                    <label class="form-checkbox mr10">
+                                        <input type="checkbox" name="authGubun" value="" checked>
+                                        <span class="ico ico-checkbox"></span>
+                                        기존 재원생
+                                    </label>
+                                    <label class="form-checkbox block">
+                                        <input type="checkbox" name="authGubun" value="">
+                                        <span class="ico ico-checkbox"></span>
+                                        신규생
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2" style="padding:0 4%;">출결 확인을 위한 휴대폰 소지 여부*</th>
+                                <td colspan="3" class="border-none pr0 txt-left">
+                                    <label class="form-checkbox mr10">
+                                        <input type="checkbox" name="authGubun" value="" checked>
+                                        <span class="ico ico-checkbox"></span>
+                                        스마트폰
+                                    </label>
+                                    <label class="form-checkbox block">
+                                        <input type="checkbox" name="authGubun" value="">
+                                        <span class="ico ico-checkbox"></span>
+                                        스마트폰 X (2G 또는 없음)
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="txt-info"><p class="txt txt-left">
+                                    ※ 강좌 예약 완료 후 2-3일 이내 시대인재 APP 설치 및 인증관련 안내 문자가 발송 됩니다.
+                                    스마트폰 미사용 학생은 추후 QR코드용 스티커 배부 예정 입니다. 
+                                </p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
+            </form>
+              
+            <div class="form-btn">
+                <a href="javascript:IfAuthSend()" class="btn btn-black btn-lg">예약하기</a>
+            </div>
+        </div>
+        <!--// E : 컨텐츠 영역 -->
+    </section>
+    <!--// E : container -->
+
+        <!-- S : footer -->
+        <footer id="footer"></footer>
+        <!--// E : footer -->
+    </div>
+
+    <script type="text/javascript">
+        // 문자 수신 인증번호 받기
+        var IfPhoneAuth = function() {
+            var authStNm = $('#authStNm').val();
+            var authStHp1 = $('#authStHp1').val();
+            var authStHp2 = $('#authStHp2').val();
+            var authStHp3 = $('#authStHp3').val();
+            var authStHp = authStHp1 + authStHp2 + authStHp3;
+            var authNm = $('#authNm').val();
+            var authHp1 = $('#authHp1').val();
+            var authHp2 = $('#authHp2').val();
+            var authHp3 = $('#authHp3').val();
+            var authHp = authHp1 + authHp2 + authHp3;
+        
+            if ( authStNm == '' ) {
+                alert('학생 이름을 입력해주세요.');
+                return;
+            }
+            if ( authStHp1 == '' || authStHp2 == '' || authStHp3 == '' ) {
+                alert('휴대폰 번호를 입력해 주세요.');
+                return;
+            }
+            if ( authNm == '' ) {
+                alert('학부모 이름을 입력해주세요.');
+                return;
+            }
+            if ( authHp1 == '' || authHp2 == '' || authHp3 == '' ) {
+                alert('휴대폰 번호를 입력해 주세요.');
+                return;
+            }
+        
+            // 인증번호 받기
+            IfGetNumberAuth(authHp, 180, '909019');
+        };
+        
+        // 문자 수신 인증번호 확인
+        var IfSend = function() {
+            var authStNm = $('#authStNm').val();
+            var authStHp1 = $('#authStHp1').val();
+            var authStHp2 = $('#authStHp2').val();
+            var authStHp3 = $('#authStHp3').val();
+            var authStHp = authStHp1 + authStHp2 + authStHp3;
+            var authNm = $('#authNm').val();
+            var authHp1 = $('#authHp1').val();
+            var authHp2 = $('#authHp2').val();
+            var authHp3 = $('#authHp3').val();
+            var authHp = authHp1 + authHp2 + authHp3;
+        
+            if ( authStNm == '' ) {
+                alert('학생 이름을 입력해주세요.');
+                return;
+            }
+            if ( authStHp1 == '' || authStHp2 == '' || authStHp3 == '' ) {
+                alert('휴대폰 번호를 입력해 주세요.');
+                return;
+            }
+            if ( authNm == '' ) {
+                alert('학부모 이름을 입력해주세요.');
+                return;
+            }
+            if ( authHp1 == '' || authHp2 == '' || authHp3 == '' ) {
+                alert('휴대폰 번호를 입력해 주세요.');
+                return;
+            }
+        
+            // 인증번호 체크
+            if ( !IfAuthConfirm(authHp) ) {
+                return;
+            } else {
+                alert('본인 인증이 완료 되었습니다.');
+                window.close(); 
+            }
+        
+            // 인증문구
+            $('#authText').hide();
+            
+            $('#authConfirmFlag').val('Y');
+            $('#authTimeFlag').val('Y');
+            clearInterval(setInterValTimer);
+        };
+        $(function(){ });
+    </script>
+        
+</body>
+</html>
