@@ -12,7 +12,7 @@ html, body, #wrap{ height:100%; counter-reset:section; overflow-x:hidden; overfl
 #header .gnb-area .gnb li{ margin-left:10px; line-height:93px; float:left; }
 #header .gnb-area .gnb li a{ font-size:12px; letter-spacing:-.05em; }
 #header .gnb-area .gnb li a.txt-link{ text-decoration:underline; }
-#header .gnb-area .gnb-select-wrap{ width:50px; position:absolute; top:-3px; right:-50px; background:url(https://dgh3i7c9du7yu.cloudfront.net/ico_gnb_select.png) 38px 53% no-repeat; overflow:hidden; }
+#header .gnb-area .gnb-select-wrap{ width:50px; position:absolute; top:-3px; right:-50px; background:url(//dgh3i7c9du7yu.cloudfront.net/ico_gnb_select.png) 38px 53% no-repeat; overflow:hidden; }
 #header .gnb-area .gnb-select{ width:85px; padding-left:3px; padding-right:15px; background:transparent; border:0 none; font-size:16px; font-weight:bold; }
 #header .nav-area{ padding-bottom:45px; position:absolute; top:0; left:0; right:0; background-color:#fff; z-index:99; box-shadow:5px 9px 15px 0px rgba(0, 0, 0, .3); z-index:-1; transform:translate(0, -110%); -webkit-transform:translate(0, -110%); transition:all 0.3s ease-in; -webkit-transition:all 0.3s ease-in; }
 #header .nav-area > .float-area{ width:1180px; margin:0 auto; padding-left:250px; box-sizing:border-box; }
@@ -36,7 +36,7 @@ html, body, #wrap{ height:100%; counter-reset:section; overflow-x:hidden; overfl
 #header.nav-on .nav-area{ z-index:12; transform:translate(0, 0); -webkit-transform:translate(0, 0); transition:all .3s ease-in; -webkit-transition:all .3s ease-in; transition-delay:.1s; -webkit-transition-delay:.1s; }
 
 /* footer */
-#footer{ min-height:340px; padding-top:40px; padding-bottom:30px; display:none; font-size:14px; }
+#footer{ padding-top:40px; padding-bottom:30px; font-size:14px; } /* min-height:340px; display:none; */
 #footer .content-layout > div{ float:left; }
 #footer .content-layout > div.family-site{ width:250px; margin-left:0; }
 #footer .family-site h1{ margin-bottom:50px; }
