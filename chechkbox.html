@@ -58,6 +58,12 @@
 <script type="text/javascript" src="./js/common.js"></script>
 <!--// E : js -->
 
+
+<style>
+    
+</style>
+
+
 </head>
 <body>
     <div id="wrap">
@@ -223,9 +229,19 @@
                     </table>
                 </div>  
             </form>
-              
+            <style>
+                .btn-darkgray, .btn-darkgray:hover{ background-color:#666; border-color:#666; color:#fff; }
+                .form-btn{ text-align:center; }
+                .form-btn .btn{ margin:0 10px; display:inline-block; }
+                @media (max-width: 1024px) and (orientation: portrait), (max-width: 1366px) and (orientation: landscape){
+                    .form-btn{ display:flex; align-items:center; justify-content:center; }
+                    .form-btn .btn{ width:calc(50% - 15px); font-size:14px; }
+                }
+            </style>
             <div class="form-btn">
-                <a href="javascript:IfAuthSend()" class="btn btn-black btn-lg">예약하기</a>
+                <!-- <a href="javascript:IfAuthSend()" class="btn btn-black btn-lg">예약하기</a> -->
+                <a href="javascript:IfAuthSend()" class="btn btn-black btn-lg">대기 접수하기</a>
+                <a href="/sugang" class="btn btn-darkgray btn-lg">목록으로 돌아가기</a>
             </div>
         </div>
         <!--// E : 컨텐츠 영역 -->
